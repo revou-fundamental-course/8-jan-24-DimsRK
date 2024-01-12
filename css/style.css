@@ -2,6 +2,15 @@ body h1, h3, h4, p, .image {
     text-align: center;
 }
 
+body {
+    border: solid #D71313;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
 body h1 {
     background-color: #D71313;
     color: white;
@@ -26,6 +35,10 @@ body h4  {
 .inputSection {
     display: flex;
     flex-direction: column;
+}
+
+label, input {
+    margin: 20px;
 }
 
 #lblSquaresides {
