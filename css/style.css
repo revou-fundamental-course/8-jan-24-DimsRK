@@ -1,0 +1,69 @@
+body h1, h3, h4, p, .image {
+    text-align: center;
+}
+
+body h1 {
+    background-color: #D71313;
+    color: white;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 75px;
+}
+
+body h3 {
+    margin-top: -25px;
+    font-weight: bolder;
+}
+
+body h4  {
+    margin-top: 20px;
+    background-color: #FF1E1E;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.inputSection {
+    display: flex;
+    flex-direction: column;
+}
+
+#lblSquaresides {
+    margin-top: 50px;
+}
+
+.Squaresides {
+    outline: none;
+    border: solid 2px #FF1E1E;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.Squaresides:focus {
+    border: #D71313 solid;
+}
+
+button {
+    margin: 20px;
+    background-color: #D71313;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    outline: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b81212;
+}
+
+button:active {
+    background-color: #940f0f;
+    transform: translateY(3px);
+}
