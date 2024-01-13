@@ -82,3 +82,19 @@ button:active {
     background-color: #940f0f;
     transform: translateY(3px);
 }
+
+#lblPerimeter {
+    margin-top: 100px;
+}
+
+#lblArea {
+    margin-top: 100px;
+}
+
+footer p {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 100px;
+}
