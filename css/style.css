@@ -2,8 +2,35 @@ body h1, h3, h4, p, .image {
     text-align: center;
 }
 
+.penjelasan {
+    text-align: left;
+    font-style: italic;
+    color: black;
+}
+
+.formula {
+    margin-top: 60px;
+    border: #FF1E1E solid 2px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+legend {
+    background-color: #FF1E1E;
+    color: white;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+
 body {
-    border: solid #D71313;
+    border: solid #FF1E1E;
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -14,7 +41,7 @@ body {
 }
 
 body h1 {
-    background-color: #D71313;
+    background-color: #FF1E1E;
     color: white;
     font-family: monospace;
     font-style: italic;
@@ -22,8 +49,8 @@ body h1 {
 }
 
 body h3 {
-    margin-top: -25px;
-    font-weight: bolder;
+    margin-top: 25px;
+    font-weight: 900px;
 }
 
 body h4  {
@@ -43,8 +70,8 @@ label, input {
     margin: 20px;
 }
 
-#lblSquaresides {
-    margin-top: 50px;
+.lblinput {
+    margin-top: 20px;
 }
 
 .Squaresides {
@@ -72,6 +99,13 @@ button {
     outline: none;
     padding: 10px;
     cursor: pointer;
+}
+
+.buttonSection {
+    display: flex;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 button:hover {
