@@ -10,34 +10,65 @@
 <body>
     <header>
         <h1>SQUARE CALCULATOR</h1>
-        <!--Add lines as separators-->
-        <h3>______________________________________________</h3>
+        <!--Menambahkan line sebagai pemisah-->
+        <h3>_____________________________________________________________</h3>
         <h4>Welcome to SQUARE CALCULATOR</h4>
-        <p><strong>We are here to help you when you need help finding the perimeter and/or area of a square shape</strong></p>
+        <p><strong>Kami hadir untuk membantumu menghitung keliling dan/atau luas sebuah bangun persegi.</strong></p>
     </header>
     <main>
-        <!--Adding square image-->
+        <!--Gambar Persegi-->
         <section class="image">
           <img src="https://upload.wikimedia.org/wikipedia/commons/1/12/Persegi.png" alt="Square Image.">
         </section>
-        <!--Adding label & input for perimeter count operations-->
-        <section class="inputSection">
-          <label for="SquaresidesPerimeter" id="lblPerimeter">SQUARE PERIMETER</label>
-          <input type="number" placeholder="Enter your Squaresides here" id="SquaresidesPerimeter" class="Squaresides">
+        <!--fieldset penjelasan rumus keliling persegi-->
+        <section>
+          <fieldset class="formula">
+            <legend><strong>KELILING PERSEGI</strong></legend>
+              <p class="penjelasan">
+                K = 4 x S
+                <br>
+                K adalah keliling persegi
+                <br>
+                S adalah sisi persegi
+              </p>
+          </fieldset>
         </section>
-        <!--Adding perimeter button section-->
+        <!--Label dan Input untuk keliling persegi-->
+        <section class="inputSection">
+          <label for="perimeterInput" id="lblPerimeter" class="lblinput">KELILING PERSEGI</label>
+          <input type="number" placeholder="masukkan sisi persegi. contoh = 5" id="perimeterInput" class="Squaresides">
+        </section>
+        <!--Tombol untuk menghitung keliling persegi-->
         <section class="buttonSection">
-          <button id="PerimeterCountButton">COUNT</button>
+          <button onclick="keliling()" id="PerimeterCountButton">HITUNG</button>
           <button id="PerimeterResetButton">RESET</button>
         </section>
-         <!--Adding label & input for area count operations-->
-         <section class="inputSection">
-          <label for="SquaresidesArea" id="lblArea">SQUARE AREA</label>
-          <input type="number" placeholder="Enter your Squaresides here" id="SquaresidesArea" class="Squaresides">
+        <section>
+        <!--Menambahkan line sebagai pemisah-->
+            <h3>_____________________________________________________________</h3>
+          </section>
+        <section>
+        <!--fieldset penjelasan rumus luas persegi-->
+        <section>
+          <fieldset class="formula">
+            <legend><strong>LUAS PERSEGI</strong></legend>
+              <p class="penjelasan">
+                L = S x S
+                <br>
+                L adalah luas persegi
+                <br>
+                S adalah sisi persegi
+              </p>
+          </fieldset>
         </section>
-        <!--Adding area button section-->
+         <!--Label dan Input untuk luas persegi-->
+         <section class="inputSection">
+          <label for="areaInput" id="lblArea" class="lblinput">LUAS PERSEGI</label>
+          <input type="number" placeholder="masukkan sisi persegi. contoh = 5" id="areaInput" class="Squaresides">
+        </section>
+        <!--Tombol untuk menghitung luas persegi-->
         <section class="buttonSection">
-          <button id="AreacountButton">COUNT</button>
+          <button onclick="luas()" id="AreaCountButton">HITUNG</button>
           <button id="AreaResetButton">RESET</button>
         </section>
     </main>
