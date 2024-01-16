@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
-    <script src="javascript/script.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -41,7 +40,10 @@
         <!--Tombol untuk menghitung keliling persegi-->
         <section class="buttonSection">
           <button onclick="keliling()" id="PerimeterCountButton">HITUNG</button>
-          <button id="PerimeterResetButton">RESET</button>
+          <button id="PerimeterResetButton" onclick="">RESET</button>
+        </section>
+        <section class="result">
+          <input type="number" id="resultPer" class="arePerResult" disabled></input>
         </section>
         <section>
         <!--Menambahkan line sebagai pemisah-->
@@ -69,11 +71,16 @@
         <!--Tombol untuk menghitung luas persegi-->
         <section class="buttonSection">
           <button onclick="luas()" id="AreaCountButton">HITUNG</button>
-          <button id="AreaResetButton">RESET</button>
+          <button id="AreaResetButton" onclick="clean()">RESET</button>
+        </section>
+        <section class="result">
+          <input type="number" id="resultAre" class="arePerResult"></input>
         </section>
     </main>
     <footer>
       <p>SQUARE CALCULATOR project | By: Dimas Restu Kumbayohni</p>
     </footer>
+
+    <script src="javascript/script.js"></script>
 </body>
 </html>
