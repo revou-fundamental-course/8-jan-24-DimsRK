@@ -1,11 +1,13 @@
 function keliling() {
     let sisiPersegi= document.getElementById("perimeterInput").value;
-    let KelilingPersegi= parseInt(sisiPersegi) * 4
-    console.log(KelilingPersegi)
+    let kelilingPersegi= parseFloat(sisiPersegi) * 4
+    console.log(kelilingPersegi)
+    document.getElementById(resultPer).value(kelilingPersegi); 
 }
 
 function luas() {
     let sisiPersegi= document.getElementById("areaInput").value;
-    let luasPersegi= parseInt(sisiPersegi) * parseInt(sisiPersegi)
+    let luasPersegi= parseFloat(sisiPersegi) * parseFloat(sisiPersegi)
     console.log(luasPersegi)
 }
+
