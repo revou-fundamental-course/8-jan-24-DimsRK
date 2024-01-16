@@ -26,6 +26,7 @@ legend {
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
+    padding: 5px;
 }
 
 
@@ -123,6 +124,25 @@ button:active {
 
 #lblArea {
     margin-top: 100px;
+}
+
+.result {
+    text-align: center;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.arePerResult {
+    border: #FF1E1E solid 1px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
 }
 
 footer p {
