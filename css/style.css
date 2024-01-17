@@ -38,7 +38,7 @@ body {
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
     background-color: lightgray;
-    background-image: url(./MB.jpg);
+    background-image: url(../assets/MB.jpg);
 }
 
 body h1 {
@@ -127,6 +127,8 @@ button:active {
 }
 
 .result {
+    display: flex;
+    flex-direction: row;
     text-align: center;
     font-weight: bold;
     display: flex;
