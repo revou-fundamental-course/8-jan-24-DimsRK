@@ -126,16 +126,13 @@ button:active {
     margin-top: 100px;
 }
 
-.result {
+/*.result {
     display: flex;
     flex-direction: row;
     text-align: center;
     font-weight: bold;
     display: flex;
     justify-content: center;
-}
-
-.arePerResult {
     border: #FF1E1E solid 1px;
     border-radius: 4px;
     -webkit-border-radius: 4px;
@@ -145,7 +142,11 @@ button:active {
     font-weight: bold;
     display: flex;
     justify-content: center;
-}
+}*/
+
+/*.arePerResult {
+    
+}*/
 
 footer p {
     text-align: center;
