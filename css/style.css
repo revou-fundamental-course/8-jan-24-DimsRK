@@ -42,6 +42,38 @@ nav ul li a:active {
     -o-transform: translateY(3px);
 }
 
+body {
+    border: solid #FF1E1E;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    background-color: lightgray;
+    background-image: url(../assets/MB.jpg);
+}
+
+body h1 {
+    background-color: #FF1E1E;
+    color: white;
+    font-family: monospace;
+    font-style: italic;
+    font-size: 50px;
+}
+
+body h3 {
+    margin-top: 25px;
+    font-weight: 900px;
+}
+
+body h4  {
+    margin-top: 20px;
+    background-color: #FF1E1E;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+}
+
 .penjelasan {
     text-align: left;
     font-style: italic;
@@ -67,39 +99,6 @@ legend {
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
     padding: 5px;
-}
-
-
-body {
-    border: solid #FF1E1E;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-    background-color: lightgray;
-    background-image: url(../assets/MB.jpg);
-}
-
-body h1 {
-    background-color: #FF1E1E;
-    color: white;
-    font-family: monospace;
-    font-style: italic;
-    font-size: 75px;
-}
-
-body h3 {
-    margin-top: 25px;
-    font-weight: 900px;
-}
-
-body h4  {
-    margin-top: 20px;
-    background-color: #FF1E1E;
-    color: white;
-    padding: 20px;
-    font-size: 30px;
 }
 
 .inputSection {
@@ -175,19 +174,19 @@ footer p {
 }
 
 body {
-    font-size: 16px;
+    font-size: 14px;
   }
   
   /* Media query untuk layar dengan lebar maksimal 600px */
   @media screen and (max-width: 600px) {
     body {
-      font-size: 14px;
+      font-size: 10px;
     }
   }
   
   /* Media query untuk layar dengan lebar antara 601px dan 900px */
   @media screen and (min-width: 601px) and (max-width: 900px) {
     body {
-      font-size: 18px;
+      font-size: 16px;
     }
   }
