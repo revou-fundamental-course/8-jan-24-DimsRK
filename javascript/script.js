@@ -1,17 +1,29 @@
+//fungsi untuk menghitung luas dan keliling
 function keliling() {
-    let sisiPersegi= document.getElementById("perimeterInput").value;
-    let kelilingPersegi= parseFloat(sisiPersegi) * 4
-    console.log(kelilingPersegi)
-    document.getElementById("perResult").innerHTML = /*"<p>Keliling Persegi Adalah :</p>"*/ + kelilingPersegi;
+  var sideLength = document.getElementById("perimeterInput").value; //ini memastikan inputnya adalah angka
+  if (!sideLength|| isNaN(sideLength)) {
+    alert("Masukkan panjang sisi dengan nilai angka! Contoh : 50");
+    return;
+  }
+
+  var kelilingPersegi = 4 * sideLength;
+  console.log(kelilingPersegi)
+  document.getElementById("perResult").innerHTML = kelilingPersegi;
 }
 
 function luas() {
-    let sisiPersegi= document.getElementById("areaInput").value;
-    let luasPersegi= parseFloat(sisiPersegi) * parseFloat(sisiPersegi)
-    console.log(luasPersegi)
-    document.getElementById("resultAre").innerHTML = "<p>Luas Persegi Adalah :</p>" + luasPersegi;
+  var sideLength = document.getElementById("areaInput").value; //ini memastikan inputnya adalah angka
+  if (!sideLength|| isNaN(sideLength)) {
+    alert("Masukkan panjang sisi dengan nilai angka! Contoh : 50");
+    return;
+  }
+
+  var luasPersegi = sideLength * sideLength;
+  console.log(luasPersegi)
+  document.getElementById("areResult").innerHTML = luasPersegi;
 }
 
+//membuat fungsi untuk tombol reset
 function reset1() {
     var resultPer = document.getElementById("perResult");
     var perimeterSide = document.getElementById("perimeterInput");
@@ -37,9 +49,6 @@ function reset2() {
       areaSide.value = "";
     }
 } 
-  
-/*function reset() {
-    document.getElementsByClassName("perimeterInput").value = "";
-    document.getElementById("result").innerHTML = "";
-}  
-*/
+
+
+
